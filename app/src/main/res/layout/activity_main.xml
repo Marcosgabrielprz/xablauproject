@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity_main">
+
+   <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="482dp"
+        android:layout_height="80dp"
+        android:hint="Digite o primeiro número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="482dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/editTextNumber1"
+        android:hint="Digite o segundo número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="448dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/editTextNumber2"
+        android:text="Somar" />
+</RelativeLayout>
